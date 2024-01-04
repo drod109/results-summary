@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](https://i.postimg.cc/59HKcV4n/Screenshot-2024-01-04-144327.png)
 
 ### Links
 
@@ -55,9 +55,8 @@ the code needed for this pattern.
 
 ### Useful resources
 
-- [&#60;details&#62;&#58; The Details disclosure element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
 - [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/)
-- [Webdev | Details and Summary](https://web.dev/learn/html/details)
+- [Webdev](https://web.dev/)
 
 *
 
@@ -67,7 +66,3 @@ the code needed for this pattern.
 - LinkedIn - [@dwaynerodrigues](https://www.linkedin.com/in/dwaynerodrigues/)
 - Twitter - [@drod_tweets](https://www.twitter.com/drod_tweets)
 - Instagram - [@drod108](https://www.instagram.com/drod108/)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
