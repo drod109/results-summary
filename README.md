@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://i.postimg.cc/59HKcV4n/Screenshot-2024-01-04-144327.png)
+![Project Screenshot](https://i.postimg.cc/59HKcV4n/Screenshot-2024-01-04-144327.png)
 
 ### Links
 
