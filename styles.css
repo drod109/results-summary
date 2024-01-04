@@ -35,7 +35,7 @@
 html,
 body {
     font-family: Hanken Grotesk, sans-serif, system-ui;
-    background-color: var(--ntrl-pale-blue);
+    background-color: var(--ntrl-white);
     color: var(--ntrl-dark-gray-blue);
     font-weight: 500;
     min-height: 100vh;
@@ -62,7 +62,7 @@ main {
     min-height: 28.125rem;
     background: var(--ntrl-white);
     border-radius: 1.25rem;
-    box-shadow: 0.625rem 0.688rem 0.625rem hsla(241, 72%, 46%, 0.06);
+    box-shadow: 0.625rem 0.688rem 0.625rem hsla(241, 72%, 46%, 0.09);
 }
 .card-left {
     display: flex;
