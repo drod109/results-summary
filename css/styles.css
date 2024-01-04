@@ -62,7 +62,7 @@ main {
     min-height: 28.125rem;
     background: var(--ntrl-white);
     border-radius: 1.25rem;
-    box-shadow: 0.625rem 0.688rem 0.625rem hsla(234, 85%, 45%, 3.4%);
+    box-shadow: 0.625rem 0.688rem 0.625rem hsla(241, 72%, 46%, 0.06);
 }
 .card-left {
     display: flex;
@@ -71,7 +71,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
     flex-basis: 50%;
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 1.25rem;
     color: var(--ntrl-white);
     background: linear-gradient(
@@ -81,18 +81,14 @@ main {
 }
 .card-left h1 {
     font-size: 1.375rem;
-    font-weight: 500;
+    font-weight: 600;
     color: hsl(252, 100%, 89%);
 }
 .card-left h2 {
     font-size: 2rem;
     font-weight: 600;
-}
-.result > p {
-    text-align: center;
-    font-size: 18px;
-    color: hsl(252, 100%, 89%);
-    padding: 0 40px;
+    position: relative;
+    top: 0.313rem;
 }
 .circle {
     position: relative;
@@ -108,14 +104,16 @@ main {
     );
 }
 .score h3 {
-    font-size: 90px;
-    font-weight: 500;
+    font-size: 4.625rem;
+    font-weight: 600;
 }
 .score > span {
     display: block;
     text-align: center;
-    color: hsl(252, 100%, 89%);
-    font-size: 18px;
+    position: relative;
+    top: -0.625rem;
+    color: hsl(252, 100%, 76%);
+    font-size: 1.125rem;
     font-weight: 600;
 }
 .result {
@@ -124,32 +122,152 @@ main {
     align-items: center;
     flex-direction: column;
     text-align: center;
-
+}
+.result > p {
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(252, 100%, 87%);
+    padding: 0 2.5rem;
 }
 .card-right {
     display: flex;
-    position: relative;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
     flex-basis: 50%;
-    padding: 1.25rem;
+    padding:  1rem;
     background-color: var(--ntrl-white);
-    border-top-right-radius: 1.25rem;
-    border-bottom-right-radius: 1.25rem;
+    border-radius: 1.25rem;
     color: var(--ntrl-dark-gray-blue);
 }
-.author-credit {
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+}
+.card-right h2 {
+    position: relative;
+    top: 1.25rem;
+    left: 1.25rem;
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin-right: 5%;
+}
+img {
+    padding-right: 10px;
+}
+.reaction p,
+.memory p,
+.verbal p,
+.visual p {
+    flex: 1;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.reaction span,
+.memory span,
+.verbal span,
+.visual span {
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+.reaction span span,
+.memory span span, 
+.verbal span span, 
+.visual span span {
+    color: darkgray;
+    font-size: 1.125rem;
+}
+.reaction p {
+    color: var(--pri-clr-light-red);
+}
+.memory p {
+    color: var(--pri-clr-orange-yellow);
+}
+.verbal p {
+    color: var(--pri-clr-green-teal);
+}
+.visual p {
+    color: var(--pri-clr-cobalt-blue);
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 0.625rem;
+    background: hsl(0, 100%, 97%);
+    font-size: 1rem important;
+    border-radius: 80.5rem;
+    width: 90%;
+    margin: 1.125rem 0;
+    height: 3.438rem;
+}
+.memory {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1.125rem;
+    background: hsl(39, 100%, 95%);
+    border-radius: 0.5rem;
+    width: 90%;
+    margin-bottom: 1.125rem;
+    height: 3.438rem;
+}
+.verbal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 0.625rem;
+    background: hsl(166, 100%, 95%);
+    border-radius: 0.5rem;
+    width: 90%;
+    margin-bottom: 1.125rem;
+    height: 3.438rem;
+}
+.visual {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 1.125rem;
+    padding: 0 0.625rem;
+    background: hsl(234, 85%, 97%);
+    border-radius: 0.5rem;
+    width: 90%;
+    margin-bottom: 1.125rem;
+    height: 3.438rem;
+}
+button {
+    position: relative;
+    top: 1.25rem;
+    font: inherit;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 3.438rem;
+    border-radius: 1.875rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--ntrl-white);
+    background-color: var(--ntrl-dark-gray-blue);
+}
+button:hover {
+    background: linear-gradient(
+        var(--grad-light-slate-blue), 
+        var(--grad-light-royal-blue)
+    )
+}
+.author {
     position: relative;
     top: 3px;
     color: inherit;
-    font-size: 0.775rem;
+    font-size: 0.765rem;
 }
-.author-credit a {
+.author a {
     color: inherit;
-    font-size: 0.875rem;
+    font-size: 0.765rem;
 }
-.author-credit a:hover {
+.author a:hover {
     color: var(--grad-light-royal-blue);
 }
 
@@ -157,5 +275,32 @@ main {
 @media (max-width: 42.188rem) {
     .card {
         flex-direction: column;
+    }
+    .reaction,
+    .memory,
+    .verbal,
+    .visual,
+    button {
+        margin: 8px 0;
+    }
+    .card-right h2 {
+        position: relative;
+        top: 0.313rem;
+        left: 1.25rem;
+        margin-right: 5%;
+    }
+    .card-right .summary button {
+        position: relative;
+        top: 0.625rem;
+    }
+    .author-credit {
+        position: relative;
+        top: 0.188rem;
+        color: inherit;
+        font-size: 0.565rem;
+    }
+    .author-credit a {
+        color: inherit;
+        font-size: 0.565rem;
     }
 }
