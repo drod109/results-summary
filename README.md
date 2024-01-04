@@ -10,10 +10,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,11 +30,11 @@ Users should be able to:
 ### Links
 
 - Live Site URL Primary: [Live Preview Link](https://drod109.github.io/results-summary/)
-- Live Site URL Backup: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL Backup: [Live Preview Link](https://codepen.io/drodrigues/full/QWoyBzv)
 
 ## My process
 
-Similar to other projects I used the design images to build a mock up of the structure I need to apply to ensure a semantic markup and layout. This will be my first time building an accodian from scratch so this will require some research on [MDN](https://developer.mozilla.org/en-US/).
+Similar to other projects I used the design images to build a mock up of the structure I need to apply to ensure a semantic markup and layout.
 
 ### Built with
 
@@ -45,13 +43,6 @@ Similar to other projects I used the design images to build a mock up of the str
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-#### What I learned
-
-In this project I have learned that using both the "details" and " summary" elements reduces
-the code needed for this pattern.
 
 ### Useful resources
 
