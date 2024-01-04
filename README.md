@@ -55,10 +55,8 @@ the code needed for this pattern.
 
 ### Useful resources
 
-- [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/)
+- [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/)
 - [Webdev](https://web.dev/)
-
-*
 
 ## Author
 
