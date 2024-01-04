@@ -207,7 +207,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 1.125rem;
+    padding: 0 0.625rem;
     background: hsl(39, 100%, 95%);
     border-radius: 0.5rem;
     width: 90%;
