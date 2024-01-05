@@ -103,7 +103,7 @@ main {
         var(--grad-persian-blue)
     );
 }
-.score h3 {
+.score h2 {
     font-size: 4.625rem;
     font-weight: 600;
 }
