@@ -276,6 +276,10 @@ button:hover {
     .card {
         flex-direction: column;
     }
+    .card-left {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
     .reaction,
     .memory,
     .verbal,
