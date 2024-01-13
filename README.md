@@ -46,7 +46,7 @@ Similar to other projects I used the design images to build a mock up of the str
 
 ### Useful resources
 
-- [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/)
+- [ARIA (APG)](https://www.w3.org/WAI/ARIA/)
 - [Webdev](https://web.dev/)
 
 ## Author
