@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL Primary: [Live Preview Link](https://drod109.github.io/results-summary/)
+- Live Site URL Primary: [Live Preview Link](https://drod109.github.io/results-summary-card/)
 - Live Site URL Backup: [Live Preview Link](https://codepen.io/drodrigues/full/QWoyBzv)
 
 ## My process
